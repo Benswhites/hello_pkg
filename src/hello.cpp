@@ -1,8 +1,11 @@
 #include <iostream>
+#include <string>
 
 int main(int argc, char const *argv[])
 {
-    std::cout << "Hello, name!" << std::endl;
-    std::cin
+    std::string name;
+    std::cout << "What is your name?:";
+    std::cin >> name;
+    std::cout << "Hello, "<< name << std::endl;
     return 0;
 }
